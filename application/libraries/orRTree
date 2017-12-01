@@ -1,0 +1,22 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class orRTree
+{
+	public function rtPointQuery($p) {
+		$result = 0;
+		$SL = $this->rtTraversal($root, $p);
+	}
+
+	public function rtTraversal($$nodeId, $p) {
+		$result = 0;
+		$SL = $this->rtTraversal($root, $p);
+		$N = ;
+		if($N = true)
+			return $N;
+		else
+			foreach($N as $e){
+				if($e->dr)
+			}
+	}
+}
